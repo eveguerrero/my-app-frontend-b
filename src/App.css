@@ -1,0 +1,129 @@
+.App {
+  background-color: pink;
+}
+
+ .header {
+   display:flex;
+   flex-direction: column;
+   color: #b5838d;
+   margin:10px;
+   text-align: center;
+ }
+.button {
+
+cursor: pointer;
+background-color: #b5838d;
+margin: 0.5rem;
+color: white;
+padding: 1px;
+font-size: 16px;
+border-radius: 25px;
+}
+
+    .coffeeBody {
+      padding:100px;
+      height: 100px;
+     border: 1px solid;
+     min-width: 100%;
+     max-width: 100%;
+    text-align: center;
+  }
+  .dropbtn {
+    background-color:#ffa5ab;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px black;
+    margin-left: 1000px;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  
+  
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  
+  
+
+  ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    margin: 50px;
+    text-align: center;
+
+  }
+  input {
+    padding: 0.25rem;
+    border: none;
+    font-family: inherit;
+    font-size: 1.2em;
+    border-bottom: 2px solid gray;
+    transition: all 0.2s;
+    width: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    background-color: rgb(167, 242, 242);
+  }
+  .coffee_page {
+    text-align: center;
+    align-items: center;
+  }
+  
+  .comments {
+  flex-wrap: wrap;
+  }
+  .card {
+    align-items: center;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+  }
+  .benefits {
+    background-color: #fff3b0;
+    text-align: center;
+    margin: 4rem;
+    border-radius: 25px;
+    padding:2rem;
+  }
+.text_background {
+  background-color: #fff3b0;
+  border-radius: 25px;
+}
+
+
+
+h4 {
+  border-radius: 25px;
+  color:rgb(13, 111, 111);
+}
+a {
+  background-color: rgb(118, 240, 240);
+}
+
